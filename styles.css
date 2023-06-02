@@ -1,0 +1,35 @@
+*{
+    background-color: brown;
+    color: white;
+}
+
+h1 {
+    color: blue;
+}
+
+h1, h2{
+    text-decoration: underline;
+}
+
+/* 
+    ID - unique (#)
+    Class - Get all elements with same name (.)
+*/
+
+#main-content {
+    color: green;
+}
+
+.tobold{
+    font-weight: 800;
+}
+
+input[type=text]{
+    background-color: green;
+    color: yellow;
+}
+
+input[type=number]{
+    background-color: darkcyan;
+    color: purple;
+}
